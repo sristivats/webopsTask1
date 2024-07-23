@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar" id="sidebar">
+            <h4>🏠Home</h4>
+            <ul>
+                <li class="new"><a href="#">+ New Item</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">Dashboard</a>
+                    <div class="dropdown-content">
+                        <a href="#">Commerce</a>
+                        <a href="#">Analytics</a>
+                        <a href="#">Crypto</a>
+                        <a href="#">Helpdesk</a>
+                        <a href="#">Monitoring</a>
+                        <a href="#">Fitness</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">Application</a>
+                    <div class="dropdown-content">
+                        <a href="#">Data Validation</a>
+                        <a href="#">ID Enquiry</a>
+                        <a href="#">Update Info</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-btn">Elements</a>
+                    <div class="dropdown-content">
+                        <a href="#">New Form</a>
+                        <a href="#">Change details</a>
+                        <a href="#">Track Status</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content" id="content">
+            <button class="toggle-btn" id="toggle-btn">☰</button>
+            <h1>Welcome</h1>
+            <h1>Username</h1>
+            <h3>Form Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ab voluptate minus facilis expedita eum in tempora officiis obcaecati similique quae, suscipit modi ea enim quos repellat tenetur odit vel?</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Role</th>
+                        <th>Phone No.</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="userdata">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
